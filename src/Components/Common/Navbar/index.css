@@ -1,0 +1,35 @@
+header, ul, p {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+header {
+  background: #1c2635;
+  height: 50px;
+  width: 100%;
+  font-size: 14px; }
+  header .list {
+    height: 50px;
+    display: flex;
+    justify-content: space-around; }
+    header .list li {
+      margin-top: 15px; }
+      header .list li img {
+        width: 67px;
+        height: 22px; }
+      header .list li a {
+        color: #bbb;
+        text-decoration: none; }
+      header .list li i {
+        color: #fff; }
+      header .list li .active {
+        color: #fff; }
+        header .list li .active div {
+          height: 3px;
+          background: #fff;
+          margin-top: 13px; }
