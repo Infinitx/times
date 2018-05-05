@@ -1,7 +1,7 @@
 import React,{Component}from 'react';
 import './index.css';
 
-class Nowplaying extends Component{
+class Comingsoon extends Component{
 	constructor(){
 		super();
 		this.state={
@@ -11,10 +11,10 @@ class Nowplaying extends Component{
 	render(){
 		return(
 			<div>
-				Nowplaying
+				Comingsoon
 			</div>
 			);
 	}
 }
 
-export default Nowplaying;
+export default Comingsoon;

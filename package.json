@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "node-sass-chokidar": "^1.2.2",
     "react": "^16.3.2",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4",
+    "react-swipe": "^5.1.1",
     "redux": "^4.0.0"
   },
   "scripts": {
@@ -19,6 +21,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/api": {
+      "target": "https://ticket-m.mtime.cn",
+      "host": "ticket-m.mtime.cn",
+      "changeOrigin": true
+    },
+    "/Service": {
+      "target": "https://m.mtime.cn",
+      "host": "m.mtime.cn",
+      "changeOrigin": true
+    }
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",

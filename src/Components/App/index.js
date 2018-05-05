@@ -8,10 +8,10 @@ class App extends Component{
 	render(){
 		return(
 			<div>
-				
+
 				<Navbar/>
-				<Footer/>
 				{this.props.children}
+				<Footer/>
 			</div>
 			);
 	}

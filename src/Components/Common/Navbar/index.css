@@ -9,8 +9,9 @@ img {
   display: block; }
 
 header {
+  position: relative;
+  z-index: 5;
   background: #1c2635;
-  height: 50px;
   width: 100%;
   font-size: 14px; }
   header .list {
@@ -33,3 +34,42 @@ header {
           height: 3px;
           background: #fff;
           margin-top: 13px; }
+  header .search {
+    height: 45px;
+    padding: 9px 18px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .search .left p {
+      font-size: 16px; }
+    header .search .right {
+      flex: 1;
+      margin-left: 10px;
+      padding: 0 10px;
+      line-height: 35px;
+      height: 35px;
+      border: 1px solid #bbb;
+      border-radius: 10px;
+      background: #fff; }
+      header .search .right i {
+        color: #777; }
+      header .search .right span {
+        color: #777;
+        margin-left: 5px;
+        font-size: 16px; }
+    header .search .ss {
+      box-sizing: border-box;
+      color: #333;
+      width: 70px;
+      text-align: right;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      margin-left: 5px; }
+    header .search .car i {
+      font-size: 25px;
+      margin-left: 5px;
+      color: blue; }
