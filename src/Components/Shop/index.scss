@@ -5,3 +5,25 @@
     height: 250px;
   }
 }
+.xq{
+  text-align: center;
+  padding: 10px;
+  background: #f6f6f6;
+}
+.goodlist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #f6f6f6;
+  li{
+    background: #fff;
+    width: 49%;
+    margin-bottom: 7px;
+    img{
+      width: 100%;
+    }
+    .p1{
+      font-size: 14px;
+    }
+  }
+}

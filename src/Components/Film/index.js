@@ -28,12 +28,12 @@ class Film extends Component{
 				movieslist :res.data.data.movies
 			})
 		})
-		axios.get("/Service/callback.mi/showtime/ShowTimesByCinemaMovieDate.api?cinemaId="+urlstr+"&movieId=253823&date=2018-05-05&t=20185510213571046").then(res=>{
+		axios.get("/Service/callback.mi/showtime/ShowTimesByCinemaMovieDate.api?cinemaId="+urlstr+"&movieId=253823&date=2018-05-07&t=20185510213571046").then(res=>{
 			this.setState({
 				halllist:res.data.s
 			})
 		})
-		axios.get("/Service/callback.mi/showtime/ShowTimesByCinemaMovieDate.api?cinemaId=9131&movieId=253823&date=2018-05-06&t=201855143413893").then(res=>{
+		axios.get("/Service/callback.mi/showtime/ShowTimesByCinemaMovieDate.api?cinemaId=9131&movieId=253823&date=2018-05-08&t=201855143413893").then(res=>{
 			//console.log(res.data.s);
 			this.setState({
 				halllist1:res.data.s
